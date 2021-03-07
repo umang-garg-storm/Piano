@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD740"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/white11"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white10"
+        app:layout_constraintStart_toEndOf="@+id/white10" />
+
+    <Button
+        android:id="@+id/white10"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginStart="57dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white9"
+        app:layout_constraintStart_toStartOf="@+id/white9" />
+
+    <Button
+        android:id="@+id/white9"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white8"
+        app:layout_constraintStart_toEndOf="@+id/white8" />
+
+    <Button
+        android:id="@+id/white8"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white7"
+        app:layout_constraintStart_toEndOf="@+id/white7" />
+
+    <Button
+        android:id="@+id/white7"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white6"
+        app:layout_constraintStart_toEndOf="@+id/white6" />
+
+    <Button
+        android:id="@+id/white6"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white5"
+        app:layout_constraintStart_toEndOf="@+id/white5" />
+
+    <Button
+        android:id="@+id/white5"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white4"
+        app:layout_constraintStart_toEndOf="@+id/white4" />
+
+    <Button
+        android:id="@+id/white4"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white3"
+        app:layout_constraintStart_toEndOf="@+id/white3" />
+
+    <Button
+        android:id="@+id/white2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/white1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/white1"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/white3"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/white_key"
+        android:gravity="bottom|center|fill_horizontal"
+        android:text="A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/white2"
+        app:layout_constraintStart_toEndOf="@+id/white2" />
+
+    <Button
+        android:id="@+id/black6"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintEnd_toStartOf="@+id/white10"
+        app:layout_constraintStart_toStartOf="@+id/white10"
+        app:layout_constraintTop_toTopOf="@+id/white9" />
+
+    <Button
+        android:id="@+id/black7"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintStart_toEndOf="@+id/black6"
+        app:layout_constraintTop_toTopOf="@+id/white11" />
+
+    <Button
+        android:id="@+id/black4"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintEnd_toEndOf="@+id/white6"
+        app:layout_constraintStart_toEndOf="@+id/white6"
+        app:layout_constraintTop_toTopOf="@+id/white6" />
+
+    <Button
+        android:id="@+id/black2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintEnd_toEndOf="@+id/white3"
+        app:layout_constraintStart_toEndOf="@+id/white3"
+        app:layout_constraintTop_toTopOf="@+id/white3" />
+
+    <Button
+        android:id="@+id/black5"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintEnd_toEndOf="@+id/white7"
+        app:layout_constraintStart_toEndOf="@+id/white7"
+        app:layout_constraintTop_toTopOf="@+id/white7" />
+
+    <Button
+        android:id="@+id/black3"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintStart_toEndOf="@+id/black2"
+        app:layout_constraintTop_toTopOf="@+id/white4" />
+
+    <Button
+        android:id="@+id/black1"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_key"
+        android:elevation="8dp"
+        android:text="b"
+        app:layout_constraintEnd_toEndOf="@+id/white1"
+        app:layout_constraintStart_toEndOf="@+id/white1"
+        app:layout_constraintTop_toTopOf="@+id/white1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
